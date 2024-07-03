@@ -51,13 +51,16 @@ h2 {
     width: 100%;
     padding: 10px;
     font-size: 14px;
+    border: 2px solid;
+    border-radius: 5px;
 }
 
 .form-control input:focus {
+    /* outline: 0; */
     border-color: #777;
 }
 
-.form-control.success input{
+.form-control.success input {
     border-color: var(--success-color);
 }
 
